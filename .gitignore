@@ -1,0 +1,6 @@
+*.bmp
+*.mp4
+.DS_Store
+output.txt
+
+env/
