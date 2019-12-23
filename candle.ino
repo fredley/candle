@@ -65210,6 +65210,7 @@ void loop() {
   // put your main code here, to run repeatedly:
   matrix.setRotation(2);
   int len = 9313;
+  Serial.println(sizeof(frames) / (sizeof(uint8_t) * 105));
   int width = matrix.width();
   for(int frame=0; frame < len; frame++) {
     for(int i=0; i < width; i++) {
